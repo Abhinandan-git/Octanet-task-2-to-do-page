@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To-Do List</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<main class="main-flex-container">
+		<section class="main-container">
+			<section class="heading">To Do List</section>
+			<section class="input-bar">
+				<input type="text" id="task-name-input" class="task-name" placeholder="Task...">
+				<input type="date" name="deadline" id="task-deadline-input" class="deadline">
+				<button class="button add-button" onclick="addItem()">
+					<span class="button-text">Add</span>
+				</button>
+			</section>
+			<section class="tasks-section">
+				<section class="tasks-headings">
+					<div class="task-heading-name">Tasks</div>
+					<div class="task-heading-deadline">Deadline</div>
+				</section>
+				<section class="tasks" id="tasks-list"></section>
+			</section>
+		</section>
+	</main>
+	<footer>
+		<span class="copyright-content">
+			Copyright &copy; <span id="current-year"></span>.
+			All rights reserved.
+		</span>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
