@@ -11,5 +11,5 @@ Viola! You can preview the to do list.
 
 ## Final Output
 
-![Without Date]()
-![With Date]()
+![Without Date](images/Without Data.png)
+![With Date](images/With Data.png)
